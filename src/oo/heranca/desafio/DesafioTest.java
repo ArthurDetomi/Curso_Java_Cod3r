@@ -34,6 +34,7 @@ public class DesafioTest {
 
         System.out.println("Ferrari = " + ferrari);
         System.out.println("Civic = " + civic);
+        System.out.println(ferrari.velocidadeDoAr());
 
 
     }
