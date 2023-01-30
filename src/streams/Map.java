@@ -12,7 +12,7 @@ public class Map {
 
         List<String> marcas = Arrays.asList("BMW", "Audi", "Honda");
         // forEach é uma função terminal
-        marcas.stream().map(m -> m.toUpperCase()).forEach(println);
+        marcas.stream().map(String::toUpperCase).forEach(println);
 
         // UnaryOperator<String> maiuscula = n -> n.toUpperCase();
         UnaryOperator<String> primeiraLetra = n -> n.charAt(0) + "";
